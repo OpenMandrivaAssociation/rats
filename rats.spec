@@ -12,7 +12,7 @@ Group:		Development/C
 Url:		http://www.securesoftware.com/
 Source:		https://www.fortify.com/downloads2/public/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
-BuildRequires:	gcc-c++
+BuildRequires:	gcc-c++,libexpat1
 Requires:	expat
 Patch0:		build.patch
 
