@@ -9,7 +9,7 @@ Packager:	Bruno Cornec <bcornec@mandriva.org>
 Release:	%mkrel 1
 License:	GPL
 Group:		Development/C
-Url:		http://www.securesoftware.com/
+Url:		https://www.securesoftware.com/
 Source:		https://www.fortify.com/downloads2/public/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
 BuildRequires:	gcc-c++,libexpat1
