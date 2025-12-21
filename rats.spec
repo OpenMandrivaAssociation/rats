@@ -12,6 +12,11 @@ Group:		Development/C
 Url:		https://www.securesoftware.com/
 Source:		https://www.fortify.com/downloads2/public/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gcc-c++,libexpat1
 Requires:	expat
 Patch0:		build.patch
